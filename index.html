@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<title>New Standup and Standdown</title>
+<body>
+
+<nav class="navbar navbar-light bg-faded">
+    <a class="navbar-brand" href="#">Daily Routines: </a>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Stand Up<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Stand Down</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Number of Groups" id='numOfGroups'>
+      <button class="btn btn-outline-success my-2 my-sm-0" onclick='generateGroup()'>Generate Groups</button>
+    </form>
+</nav>
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-3' id='allGroups'>
+            
+        </div>
+        <div class='col-9'>
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
